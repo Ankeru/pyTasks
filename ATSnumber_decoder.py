@@ -1,3 +1,4 @@
+#python version 3.7.0
 inputNumber = '4434###552222311333661'
 decodedNumber = ''
 for i in range(1, len(inputNumber)):
