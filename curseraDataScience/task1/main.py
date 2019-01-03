@@ -4,7 +4,7 @@ import numpy as np
 import scipy.spatial as scsp
 
 #Открываем файл
-sentenceFile = open(".git/pyTasks/curseraDataScience/task1/sentences.txt")
+sentenceFile = open("sentences.txt")
 
 #Получаем список пердложений, разделенных на слова (пустые слова убраны). Слова приведены к нижнему регистру.
 sentencelist = [[word for word in re.split('[^a-z]', line.lower()) if word != "" ] for line in sentenceFile.readlines()] 
